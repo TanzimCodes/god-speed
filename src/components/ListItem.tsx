@@ -5,6 +5,6 @@ interface ListItemProps {
 
 export default function ListItem({ itemName, extraClass }: ListItemProps) {
   return (
-    <li className={`${extraClass} hover:rounded-full hover:bg-red-200 ml-2 px-2 py-1 transition-all `}>{itemName}</li>
+    <li className={`${extraClass} hover:rounded-full hover:bg-red-200 ml-2 px-2 py-1 transition-all`}>{itemName}</li>
   );
 }
